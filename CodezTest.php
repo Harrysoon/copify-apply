@@ -13,8 +13,8 @@ class CodezTest extends PHPUnit_Framework_TestCase {
 	 * @return void
 	 */
 	protected function setUp() {
-        $this->Codez = new Codez();
-    }
+		$this->Codez = new Codez();
+	}
 
 	/**
 	 * Function description should be here
