@@ -13,8 +13,8 @@ class CodezTest extends PHPUnit_Framework_TestCase {
 	 * @return void
 	 */
 	protected function setUp() {
-        $this->Codez = new Codez();
-    }
+        	$this->Codez = new Codez();
+    	}
 
 	/**
 	 * Function description should be here
@@ -103,6 +103,5 @@ class CodezTest extends PHPUnit_Framework_TestCase {
 		$expected = array(1,2,"Fizz",4,"Fizz","Fizz",7,8,"Fizz","Fizz",11,"Fizz",13,14,"Fizz",16,17,"Fizz",19,"Fizz");
 		$this->assertEquals($expected ,$result);
 	}
-
 
 }
